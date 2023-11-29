@@ -1,0 +1,21 @@
+.recent {
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    appearance: none;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.5s;
+    justify-content: space-around;
+    transition: all 0.5s;
+}
+
+.recent:hover {
+    transform: scale(1.1);
+}
+
+.recent-img {
+    width: 25px;
+}

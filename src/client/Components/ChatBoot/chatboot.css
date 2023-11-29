@@ -1,0 +1,15 @@
+.ChatBoot {
+    width: calc(100vw - 310px);
+    height: calc(100vh - 90px);
+    background-color: #EEE;
+    border-radius: 55px;
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatboot-container {
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+}

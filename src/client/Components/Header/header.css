@@ -1,0 +1,20 @@
+.Header {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.options {
+    width: 30px;
+    transition: all 0.2s;
+}
+
+.logo {
+    width: 200px;
+}
+
+.options:hover {
+    transform: scale(1.2);
+}

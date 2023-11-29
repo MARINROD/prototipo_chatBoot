@@ -1,0 +1,42 @@
+.SideBar {
+    width: 220px;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.btn-add-conversation {
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    appearance: none;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+
+.btn-add-conversation:hover {
+    transform: scale(1.1);
+}
+
+.plus {
+    width: 30px;
+    color: #808080;
+}
+
+.recents-strong {
+    color: #060606;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
