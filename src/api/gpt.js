@@ -1,4 +1,4 @@
-import Infos from '../client/pages/infos/infos';
+
 const OpenAI = require('openai');
 
 

@@ -3,11 +3,10 @@ import addArqv from '../../../assets/add-arqv.png'
 import send from '../../../assets/send.png'
 import { useState } from 'react'
 import useChatBoot from '../../hooks/UseChatBoot';
-// import loopDoChat from '../../../api/gpt';
 import gerarResposta from '../../../api/gpt';
 function Ask() {
-    const [file, setFile] = useState('');
-    const { ask, setAsk, setChatMessages, chatMessages } = useChatBoot();
+    const [setFile] = useState('');
+    const { ask, setAsk, setChatMessages } = useChatBoot();
 
 
     function handleFileChange(event) {

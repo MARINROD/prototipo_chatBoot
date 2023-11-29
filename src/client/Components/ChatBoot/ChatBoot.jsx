@@ -1,10 +1,9 @@
 import './chatboot.css'
 import ChatMessage from '../ChatMessage/ChatMessage'
 import Ask from '../Ask/Ask'
-import { useState } from 'react'
 import useChatBoot from '../../hooks/UseChatBoot'
 function ChatBoot() {
-    const { ask, setAsk, chatMessages, setChatMessages } = useChatBoot();
+    const { chatMessages } = useChatBoot();
 
     return (
         <div className='ChatBoot'>
