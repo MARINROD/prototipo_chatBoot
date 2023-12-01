@@ -1,10 +1,9 @@
-import dotenv from "dotenv";
+
 const OpenAI = require('openai');
-dotenv.load();
-const apiKey = process.env.API_KEY;
+
 // Crio uma nova instancia do gpt
 const openai = new OpenAI({
-    apiKey,
+    apiKey: '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',
     dangerouslyAllowBrowser: true
 });
 
