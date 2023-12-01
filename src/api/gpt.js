@@ -3,7 +3,7 @@ const OpenAI = require('openai');
 
 // Crio uma nova instancia do gpt
 const openai = new OpenAI({
-    apiKey: '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',
+    apiKey: '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',
     dangerouslyAllowBrowser: true
 });
 
