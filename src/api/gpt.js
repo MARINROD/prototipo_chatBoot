@@ -3,7 +3,7 @@ const OpenAI = require('openai');
 
 // Crio uma nova instancia do gpt
 const openai = new OpenAI({
-    apiKey: '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',
+    apiKey: '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',
     dangerouslyAllowBrowser: true
 });
 
@@ -35,8 +35,6 @@ async function gerarResposta(question) {
         ...options,
         messages: [...mensagens, { "role": "user", "content": question }],
     });
-    console.log(chatCompletion.choices[0].message.content);
-    console.log(chatCompletion.choices);
     return chatCompletion.choices[0].message.content;
 }
 
