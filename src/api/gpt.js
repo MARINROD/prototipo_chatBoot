@@ -1,9 +1,9 @@
 
 const OpenAI = require('openai');
-
+const apiKey = process.env.OPENAI_API_KEY;
 // Crio uma nova instancia do gpt
 const openai = new OpenAI({
-    apiKey: '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',
+    apiKey,
     dangerouslyAllowBrowser: true
 });
 
